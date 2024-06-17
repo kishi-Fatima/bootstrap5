@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+     body{
+        font-family: sans-serif;
+        background-color: rgb(189, 7, 7);
+     }
+     
+    .border-color-radius{
+        border-radius: 22px;
+        border: 2px solid rgb(26 172 162 );
+       
+    }
+    .border-color-radius-2{
+      border-radius: 22px;
+      background-color: rgb(87, 8, 8);
+      box-shadow: 0 40px 40px #141414;
+   
+    }
+    .border-color-radius-3{
+      border: 3px solid rgb(226, 117, 117);
+      box-shadow: 0 40px 40px #141414;
+      background-color: rgb(146, 8, 8);
+      border-radius: 10px;
+
+    }
+    .border-color-radius-3:hover{
+      background-color: red;
+    }
+    .display-inline-block{
+        display: inline-block;
+    }
+    .ff{
+        font-family: "Poppins", sans-serif;
+        text-decoration: none;
+    }
+    .cl{
+       color: rgb(26 172 162 );
+    }
+.dcl{
+    background-color: rgb(20 20 20);
+    
+}
+
+.nav-div{
+    box-shadow: 0 40px 40px #141414;
+}
+.al:hover{
+   text-underline-offset: 2px;
+}
+.fss{
+    font-size: 60px;
+    font-weight: normal;
+}
+.card-bg-cl{
+  background-color:rgb(31 31 31) ;
+  box-shadow: 0 40px 40px #141414;
+  height: 400px;
+}
+.line{
+   width: 190px;
+   height: 1px;
+   background-color:rgb(26 172 162 ) ;
+   margin-bottom: 2px;
+   
+   
+}
+a:active{
+  border-bottom: 1px solid  rgb(26 172 162 );;
+}
+
+.cl-2{
+  color: rgb(218, 165, 165);
+  text-shadow: 3px 3px 6px #000000;
+}
+.card-icon{
+  width: 100px;
+  height: 100px;
+  margin-left:20px;
+  margin-top: -50px;
+}
+
+@media only screen and (max-width: 765px){
+  .fss{
+   font-size: 30px;
+  }
+  .line{
+    width: 100px;
+  }
+
+ 
+  .hight-styl{
+    height: 300px !important;
+   
+  }
+  .btns{
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 768px){
+  .card-3{
+ 
+   height: 350px;
+  }
+}
+@media only screen and (max-width: 450px){
+  .card-3{
+ 
+   height: 580px;
+  }
+}
+@media only screen and (max-width: 550px){
+  
+  .hight-styl{
+    height: 380px !important;
+     
+  }
+}
+@media only screen and (max-width: 470px){
+  .img-size{
+    width: 100%;
+ 
+    
+    
+  }
+  .hight-styl{
+    height: 450px !important;
+     
+  }
+  .card-2-height{
+    height: 400px !important;
+   
+  }
+}
+
+</style>
+</head>
+<body>
+    
+
+   
+    
+    <nav class=" nav-div   navbar navbar-expand-md navbar-light dcl ms-3 me-3 mt-3 border-color-radius" style="height: 90px;">
+        <div class="  ms-3 me-3  " style="width: 10%;">
+          <a class="navbar-brand " href="#" >
+            <img src="smashcode.png" class="ms-3 rounded-circle"  alt="" width="50px" height="80">
+          </a>
+        </div>
+        <button class="navbar-toggler bg-light me-5" data-bs-toggle="collapse" data-bs-target="#my-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="my-navbar">
+
+
+
+             <div class="   w-50 d-flex m-auto justify-content-center" style="height: 70px; ">
+                <a class=" nav-link  text-light  text-center fs-5  w-25 ff  m-auto al " href="Accordion.html" >HOME</a>
+                 <a class="nav-link text-center text-light fs-5  align-center ms-2 ff  m-auto  w-25" href="#">Project</a>
+                 <a class="nav-link ms-2 text-center text-light fs-5  ff w-25 m-auto" href="#">Services</a>
+                 <a class="nav-link ms-2  text-center text-light fs-5 ff  w-25 m-auto" href="#">Blogs</a>
+                 <a class="nav-link ms-2  text-center text-light fs-5 ff w-25 m-auto" href="#">Contact</a>
+            </div>
+    
+            <div class="bg-dark me-3  border-color-radius ">
+                 <a class="nav-link cl text-center " href="#">Get Quote</a>
+            </div> 
+            
+        </div>
+       
+      </nav> 
+      
+
+    
+            
+      <div class="row ms-5 me-5 mt-5"   > 
+        <div class="col-md-9 col-lg-6  hight-styl " style="height: 500px; " >
+          <div class="card cl card-bg-cl   hight-styl"style="height: 470px;" >
+            <div class="card-body ">
+              <h5 class="card-title text-light mt-4 fss text-md-start text-sm-center  ff" >What You Can Think We Can Develop It For You!</h5>
+              <p class="card-text fs-md-5 fs-sm-3 text-light">We create future-ready websites & web apps via innovative
+                 digital solutions so that you can focus 
+                 on your core business.</p>
+             
+              <a href="#" class="  btn btn-dark border-color-radius w-md-25 text-center align-center pt-2 fs-3" style="height: 60px;" >let's talk</a>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-lg-6 card-bg-cl mt-5 mt-md-0 mb-md-0 mb-sm-5 d-flex justify-content-center "  style="height: 470px;">
+          <div class="card card-bg-cl  pt-lg-0 pt-md-5  " style="height: 400px; width: 450px; "  style="height: 470px;">
+            <img  src="logo.PNG " class="card-bg-cl img-size  border border-dark rounded-circle "  style="height: 100%;">
+           
+          </div>
+        </div>
+      </div>
+
+
+      
+      
+       
+     
+
+
+
+
+
+         <div class="cotainer-fluid ms-5 me-5 card-2-height" style="height: 300px;">
+          <div class="card mt-3 dcl card-2-height card-bg-cl text-light" style="height: 280px;">
+            <div class="card-body">
+              <p class="h3">Explore our done</p>
+              <h1 class="card-title fss " >Projects</h1>
+              <div class="line"></div>
+              
+              <p class="card-text fs-5">Here are some samples of our done projects delivered to our great clients.</p>
+              <ul class='ff'>
+                 <li>Custom Web Development</li>
+                 <li>Blockchain Web Apps</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+           
+
+
+
+       
+
+        <div class="row ms-5 me-5  " >
+          <div class="col-md-6">
+            <div class="card  border-color-radius-2" >
+              <div class="card-body  text-light border-color-radius-2 ">
+                <h5 class="card-title fs-2">Rarare</h5>
+                <p class="card-text fs-5">This Website application created in React.js for the company 
+                  Rarare. It is mobile
+                   responsive and consists of more than 70 pages with cool animations.</p>
+                   <video style="height: 250px; width: 100%; " src="kimta.mp4" controls></video>
+                   <div class="d-flex justify-content-center">
+                    <a href="#" class="  cl-2 ff fs-3">view more</a>
+                   </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 " >
+            <div class="card border-color-radius-2" >
+              <div class="card-body  text-light border-color-radius-2  " style="background-color: #000000;">
+                <h5 class="card-title fs-2">Trippy Frens</h5>
+                <p class="card-text fs-5">This is a full stack nft minting website. We 
+                  converted figma design in to ReactJs website. Integrated Smart Contract 
+                  and Connect wallet with Metamask.
+
+
+                   responsive and consists of more than 70 pages with cool animations.</p>
+                   <div class="d-flex justify-content-center tb-5">
+                    <img src="kimtae.png" style="width: 50%; height: 400px;">
+                   </div>
+                  
+                   <div class="d-flex justify-content-center">
+                    <a href="#" class="  cl-2 ff fs-3">view more</a>
+                   </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+
+        <div class="container mt-5  border-color-radius-3 w-25   text-center btns">
+          <a class="a-link   fs-2  cl-2 ff">view More</a>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="cotainer-fluid ms-5 me-5 card-2-height" style="height: 350px;">
+          <div class="card mt-3 dcl  card-2-height card-bg-cl text-light" style="height: 350px;">
+            <div class="card-body">
+              <p class="h3">Services we</p>
+              <h1 class="card-title fss " >Offered</h1>
+              <div class="line"></div>
+              
+              <p class="card-text fs-5">Responsive Websites & Web Apps, and Full Stack Web Apps Development.</p>
+              <ul class='ff'>
+                 <li>Custom Web Development ( HTML, CSS, JS ReactJs, Firebase)</li>
+                 <li>Blockchain Web Apps (Minting, Wallet Connectivity, Smart Contract Integration)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+
+
+
+
+        <div class="row ms-5 me-5 mt-5 ">
+
+          <div class="col-md-6   border-color-radius-2" >
+           
+            <div class="card card-bg-cl text-light border-color-radius-2 card-3">
+              <i class="fa-solid fa-laptop card-icon" ></i>
+              <div class="card-body">
+                <h5 class="card-title fs-2 ">Custom Web Development</h5>
+                <p class="card-text fs-5">We focus on creating unique full-stack Web Apps & Responsive 
+                  Websites via HTML, CSS, JS, ReactJs, and Firebase. We use next-generation
+                   programming languages platforms on the Google Cloud Platform.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-sm-5 mt-md-0 border-color-radius-2" >
+           
+            <div class="card card-bg-cl text-light border-color-radius-2 card-3">
+              <i class="fa-solid fa-laptop card-icon" ></i>
+              <div class="card-body">
+                <h5 class="card-title fs-md-2 ">Blockchain Web Apps</h5>
+                <p class="card-text fs-5">We do frontend of NFT & blockchain websites and web apps 
+                  and do smart contract integration using web3.js, Alchemy, Moralis, and other 3rd party
+                   libraries or tokens like ERC-20, ERC-720, and ERC-1155. In addition, we do wallet
+                   integration. These wallets include Metamask, Polygon, Coinbase, etc</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="container mt-5  border-color-radius-3 w-25   text-center btns">
+          <a class="a-link   fs-2  cl-2 ff">view More</a>
+        </div>
+
+
+
+
+
+      
+        <div class="cotainer-fluid ms-5 me-5" style="height: 200px;">
+          <div class="card mt-3 dcl   card-bg-cl text-light" style="height: 200px;">
+            <div class="card-body">
+              <p class="h3">Clients</p>
+              <h1 class="card-title fss " >Feedback</h1>
+              <div class="line"></div>
+              
+             
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="ms-5 me-5 mt-5 text-light bg-dark nav-div mb-2">
+          <div class="row bg-dark ">
+            <div class="col-md-4">
+               <div class="row ">
+                <div class="col-1 mt-4 "><i class="fa-solid fa-location-dot" style="width: 50px; height: 30px;"></i></div>
+                <div class="col">
+                  <ul class="nav flex-column bg-dark text-light ms-4">
+                    <li class=" nav-item fs-4  bg-dark text-light fw-normal">Location</li>
+                    <li class=" nav-item fs-5  bg-dark   text-white-50 ">pakistan</li>
+                  </ul>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="row .nav-div">
+                <div class="col-2 mt-4 ">
+                     <i class="fa-solid fa-mobile-screen " style="width: 50px; height: 30px;"></i>
+                    </div>
+                <div class="col">
+                  <ul class="nav flex-column">
+                    <li class="fs-4 nav-item ">Contact (WhatsApp)</li>
+                    <li class="fs-4  nav-item text-white-50">000000000000</li>
+                  </ul>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-2 mt-4">
+                  <i class="fa-regular fa-envelope" style="width: 50px; height: 30px;"></i></div>
+                <div class="col">
+                  <ul class="nav flex-column">
+                    <li class="fs-4 nav-item">Email</li>
+                    <li class="fs-4 nav-item">kishifatii@gmail.com</li>
+                  </ul>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
